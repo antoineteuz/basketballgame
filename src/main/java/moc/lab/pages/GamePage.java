@@ -1,13 +1,10 @@
 package moc.lab.pages;
 
-import ej.container.Flow;
 import ej.container.Split;
 import ej.microui.display.Colors;
 import ej.navigation.desktop.NavigationDesktop;
 import ej.navigation.page.Page;
-import ej.widget.basic.Label;
 import ej.widget.composed.Button;
-import ej.widget.listener.OnClickListener;
 import moc.lab.MyWidget;
 
 public class GamePage extends Page {
@@ -16,13 +13,14 @@ public class GamePage extends Page {
 
 	public GamePage (NavigationDesktop nav) {
 		
-		MyWidget mw = new MyWidget(25, 25, Colors.SILVER);
+		MyWidget mw = new MyWidget(50, 50, Colors.RED);
 		System.out.println(mw.score);
-		Split s = new Split(false, (float) 0.90);
-		s.setFirst(mw);
-		s.setLast(new Button("AAA"));
+		container = new Split(false, (float) 0.90);
+		container.setFirst(mw);
+	
+		container.setLast(new Button("Back"));
 		
-		this.setWidget(s);
+		this.setWidget(container);
 		repaint();
 	}
 }

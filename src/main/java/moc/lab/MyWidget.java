@@ -38,6 +38,7 @@ public class MyWidget extends Widget implements Element{
 	String actualColorStrig = "";
 	
 	private Image basketball_image;
+	private Image basketball_ballon;
 	
 
 	public MyWidget(int dimH, int dimV, int col) {
@@ -93,18 +94,20 @@ public class MyWidget extends Widget implements Element{
 		g.setColor(Colors.WHITE);
 		g.fillRect(0, 0, getWidth(), getHeight());
 		
+		// Draw the basket ball ballon
 		g.setColor(this.Col);
-		g.fillEllipse(this.pX - (dimH / 2), this.pY- (dimV / 2),dimH , dimV);
+		g.fillEllipse(this.pX - (dimH / 2), this.pY- (dimV / 2) ,dimH ,dimV);
 		
 		// Draw basketball circle
 		try {
-			basketball_image = Image.createImage("/images/pannier01.png");
+			basketball_image = Image.createImage("/images/panier02.png");
+			
 	
 		} catch (IOException e){
 			throw new AssertionError(e);
 		}
 		
-		g.drawImage(basketball_image, 0, 0, GraphicsContext.HCENTER);
+		g.drawImage(basketball_image, getWidth()/2, 0, GraphicsContext.HCENTER);
 		
 	}
 
