@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Application-Id: APE23
+Application-Version: 0.1.0
+Application-PrintableName: APE23
+Application-Description: APE23
+Application-Activities: moc.lab.Program
