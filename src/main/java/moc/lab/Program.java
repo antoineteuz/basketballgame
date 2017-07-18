@@ -6,18 +6,11 @@ import ej.microui.display.GraphicsContext;
 import ej.navigation.desktop.NavigationDesktop;
 import ej.style.Stylesheet;
 import ej.style.background.SimpleRoundedPlainBackground;
-import ej.style.border.Border;
-import ej.style.border.SimpleRectangularBorder;
 import ej.style.outline.SimpleOutline;
 import ej.style.selector.ClassSelector;
-import ej.style.selector.TypeNameSelector;
-import ej.style.selector.TypeSelector;
-import ej.style.selector.combinator.ChildCombinator;
 import ej.style.util.EditableStyle;
 import ej.style.util.StyleHelper;
 import ej.wadapps.app.Activity;
-import ej.widget.basic.Label;
-import ej.widget.composed.Button;
 import moc.lab.pages.MainPage;
 
 public class Program implements Activity {
@@ -80,6 +73,7 @@ public class Program implements Activity {
 		
 		styleSheet.addRule(buttonSelector, btnStyle);
 		styleSheet.addRule(titleSelector, titleStyle);
+	
 		
 		dskt.show(new MainPage(dskt));
 		

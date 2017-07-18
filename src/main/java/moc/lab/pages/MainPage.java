@@ -1,7 +1,6 @@
 package moc.lab.pages;
 
 import ej.components.dependencyinjection.ServiceLoaderFactory;
-import ej.container.Flow;
 import ej.container.List;
 import ej.container.Split;
 import ej.exit.ExitHandler;
@@ -16,43 +15,6 @@ public class MainPage extends Page {
 	private Split container;
 	
 	public MainPage(NavigationDesktop nav) {
-	
-		//container = new Split(false, (float) 0.334);
-		
-//		Flow myFlow = new Flow();
-//		
-//		Label title = new Label("TITLE");
-//		title.addClassSelector("TITLE");
-//		
-//		Button btn1 = new Button("GO TO PAGE 2");
-//		btn1.addClassSelector("BUTTON");
-
-//		
-//		btn1.addOnClickListener(new OnClickListener() {
-//			@Override
-//			public void onClick() {
-//				System.out.println("CLICKED BUTTON GO TO PAGE 2");
-//				nav.show(new SecondPage(nav));
-//			}
-//		});
-//		
-
-//		
-//		myFlow.add(title);
-//		myFlow.add(btn1);
-//		myFlow.add(exitBTN);
-//		
-//		setWidget(myFlow);
-		
-		// Le SimpleNavigator possède une pgae à chaque fois, et va d'une page à l'autre -> méthode show
-//		SimpleNavigator simpleNavigator = new SimpleNavigator();
-//		simpleNavigator.setTransitionManager(new HorizontalTransitionManager());
-		
-//		simpleNavigator.show(GamePage.class.getName()); //Url de GamePage
-		
-		// Le ChandNavigator, il faut lui donner un tableau de page -> méthode goBackward, goForward
-		// Le HistoNavigator possède une pile qui grossit à coup de méthode Show(), il faut gérer la pile avec des clear et tout
-		// Navigateur courant fixé dans le panel
 		
 		container = new Split(false, (float) 0.2);
 		
