@@ -1,4 +1,4 @@
-package __APE23__.generated;
+package __MyBasketballGame__.generated;
 
 import ej.components.dependencyinjection.ServiceLoaderFactory;
 import ej.components.registry.BundleRegistry;
@@ -11,7 +11,7 @@ public class ProgramStandalone {
 		SharedRegistryFactory.getSharedRegistry().register(BundleRegistry.class, new StandaloneRegistry());
 
 		// Start entry point.
-		new APE23EntryPoint().start();
+		new MyBasketballGameEntryPoint().start();
 
 		// Program
 		ActivitiesScheduler activitiesScheduler = ServiceLoaderFactory.getServiceLoader()

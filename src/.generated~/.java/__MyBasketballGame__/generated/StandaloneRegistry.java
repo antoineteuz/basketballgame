@@ -1,4 +1,4 @@
-package __APE23__.generated;
+package __MyBasketballGame__.generated;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import ej.components.registry.impl.AbstractRegistry;
 public class StandaloneRegistry extends AbstractRegistry {
 
 	private static final String[] BUNDLES = {
-			"__APE23__.generated.APE23Activator",
+			"__MyBasketballGame__.generated.MyBasketballGameActivator",
 "ej.wadapps.management.activators.DefaultManagementActivator"
 	};
 

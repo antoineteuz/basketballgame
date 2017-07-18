@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 # basketballgame
 Game for Micro EJ platform
-=======
-<!--
-	Markdown
--->
 
 # Overview
-MicroEJ Application: APE23.
-
-## Usage
-Add the following line to your `module.ivy` or your `ivy.xml`:
-> `<dependency org="com.pelletierantoine" name="APE23" rev="..."/>`
+MicroEJ Application: MyBasketballGame.
 
 # Requirements
   - EDC-1.2 or higher
@@ -25,4 +16,3 @@ N/A
 
 ## Restrictions
 None.
->>>>>>> First commit

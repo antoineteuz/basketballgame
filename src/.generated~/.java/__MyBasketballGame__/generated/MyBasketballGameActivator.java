@@ -1,11 +1,11 @@
-package __APE23__.generated;
+package __MyBasketballGame__.generated;
 
 import ej.wadapps.management.ActivitiesList;
 
 import ej.components.dependencyinjection.ServiceLoaderFactory;
 import ej.components.registry.BundleActivator;
 
-public class APE23Activator implements BundleActivator {
+public class MyBasketballGameActivator implements BundleActivator {
 
 	moc.lab.Program moc__lab__Program;
 

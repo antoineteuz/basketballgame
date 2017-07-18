@@ -1,4 +1,4 @@
-package __APE23__.generated;
+package __MyBasketballGame__.generated;
 
 import ej.components.dependencyinjection.ServiceLoaderFactory;
 import ej.components.registry.BundleRegistry;
@@ -6,7 +6,7 @@ import ej.components.registry.util.BundleRegistryHelper;
 
 import ej.kf.FeatureEntryPoint;
 
-public class APE23EntryPoint implements FeatureEntryPoint {
+public class MyBasketballGameEntryPoint implements FeatureEntryPoint {
 
 	@Override
 	public void start() {
